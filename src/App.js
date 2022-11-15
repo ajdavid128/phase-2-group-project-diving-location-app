@@ -3,6 +3,7 @@ import React, {useEffect, useState} from "react";
 import NavBar from "../src/Components/NavBar"
 import Home from "../src/Components/Home"
 import Form from "../src/Components/Form"
+import {BrowserRouter, Route, Switch} from "react-router-dom"
 
 
 function App() {
@@ -25,8 +26,14 @@ function App() {
   return (
     <div>
       <NavBar search = {search} setSearch = {setSearch}/>
-      <Home dives = {filteredDives}/>
-      <Form />
+      <Switch>
+        <Route exact path="/">
+          <Home dives = {filteredDives}/>
+        </Route>
+        <Route path="/form">
+          <Form />
+        </Route>
+      </Switch>
     </div>
   );
 }

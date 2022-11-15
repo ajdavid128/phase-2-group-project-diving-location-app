@@ -5,7 +5,7 @@ import DiveCard from "./DiveCard"
 function CardContainer({dives}) {
 
     return (
-      <div>
+      <div className = 'card-container'>
         {dives.map(dive => <DiveCard key = {dive.id} dive= {dive}/> )}
       </div>
     );

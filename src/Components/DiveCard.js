@@ -2,7 +2,8 @@ import CardDetails from "./CardDetails"
 
 
 function DiveCard({dive}) {
-function handleMouseOver = () => {
+
+  const handleMouseOver =() => {
   console.log("ternary")
 }
 console.log (dive)

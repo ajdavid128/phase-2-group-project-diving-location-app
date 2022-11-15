@@ -104,7 +104,7 @@
         },
         {
             "id": 7,
-            "reef": "",
+            "reef": "Multiple",
             "country": "Maldives",
             "location_description": "Although the Maldives are known the world over for the stunning beaches and azure waters that typify the tropical holiday idyll, its life beneath the water's surface is becoming ever more respected by scuba divers in the know. The Maldive Islands have some good coral reefs, but it's the abundance of marine life throughout the country that sets it apart from other dive destinations around the world.",
             "dive_summary": "Most dives in the Maldives are drifts from liveaboards where you allow the current to move you along. Due to the myriad channels and passages between the atolls, the currents sweep and play throughout the island chain so that nutrients are always on the move. This accounts for the vast numbers of fish enjoying the passing feast and you can expect to see Napoleon wrasse, parrotfish, snappers, fusiliers, jacks and sweetlips at every site where the water flows.",
@@ -121,7 +121,7 @@
         },
         {
             "id": 8,
-            "reef": "",
+            "reef": "Multiple",
             "country": "Galapagos Islands",
             "location_description": "This legendary Ecuador diving destination is often considered by experienced divers to represent something of a pinnacle in their scuba careers. In that sense, many agree that, quite simply, the Galapagos Islands have the best liveaboard diving trips in the world, plus incredible non-diving wildlife adventure cruises.",
             "dive_summary": "Such is the range of creatures, that it is difficult to avoid lists when discussing Galapagos scuba diving. Imagining a vacation involving sea lions, penguins, seals, eagle rays, marine iguanas, sea turtles, golden rays, whale sharks, hammerheads and many other shark species, is a phenomenal experience. These encounters, which are at once educational and exciting, make the appeal of the archipelago obvious.",
@@ -155,7 +155,7 @@
         },
         {
             "id": 10,
-            "reef": "",
+            "reef": "Multiple",
             "country": "Thailand",
             "location_description": "A dive vacation in Thailand, affectionately known by many as The Land of Smiles, means enjoying the gorgeous warm weather, the great hospitality of the local people, the beauty of the land and the rich bounty of the warm Andaman Sea that laps against its shores.",
             "dive_summary": "The Andaman Sea is crammed with colourful coral and tropical marine life, set around some stunning tropical islands, and is characterised by sites such as the huge submerged boulders of the Similans and the chance to swim with whale sharks, leopard sharks and manta rays. However, the diving is so diverse in Thailand that there is really something for everyone and a trip to suit every budget.",
@@ -169,15 +169,49 @@
             "diving_season": "Although November through to April is the best time for optimum site conditions, the Thailand scuba diving season runs all year round. This is reflected in the period when liveaboards run to the Similan Islands (late-October to mid-May). The best time to see whale sharks is between February and May when there is a higher concentration of plankton. This time of year is also the best for manta ray sightings although the number of sightings varies from year to year.",
             "image": "https://www.adventureinyou.com/wp-content/uploads/2016/06/best-dive-spots-thailand-LEAD.jpg",
             "url": "https://www.dive-the-world.com/diving-sites-thailand.php"
+        },
+        {
+            "id": 11,
+            "reef": "Multiple",
+            "country": "Turks and Caicos Islands",
+            "location_description": "The Turks and Caicos Islands lie just beyond the southernmost Bahamas, east of Cuba and north of the island of Hispaniola. This British Overseas Territory is now principally known as an offshore center of finance and as a tourist destination but its reputation as a wonderland for scuba divers is on the rise.",
+            "dive_summary": "Healthy reefs, walls, beginner and advanced divers...",
+            "depth": "5m - 40m",
+            "visibility": "20m - 40m",
+            "currents": "Gentle",
+            "surface_conditions": "Generally calm",
+            "water_temp": "26°C - 29°C",
+            "experience_level": "Beginner - Advanced",
+            "number_of_dives_sites": ">50",
+            "diving_season": "All year round",
+            "image": "https://www.villaesencia.com/wp-content/uploads/2022/01/Scuba-Diver-At-Coral-Reef.jpg",
+            "url": "https://www.dive-the-world.com/diving-sites-turks-and-caicos-islands.php"
+        },
+            {
+            "id": 12,
+            "reef": "Socorro Islands",
+            "country": "Mexico",
+            "location_description": "The best known of the Revillagigedos of Mexico is Socorro Island, so much so that the group of islands is often referred to collectively as 'Socorro'. Approximately 9 miles (15 km) wide, the island and its surrounding waters have become synonymous with liveaboard diving cruises and big fish action, particularly manta rays, sharks (hammerheads, silkies, oceanic whitetips, silvertips, Galapagos sharks, tiger sharks and whale sharks), dolphins and even whales.",
+            "dive_summary": "Wall dives, drift diving, advanced divers, off the beaten track...",
+            "depth": "33ft - 100ft",
+            "visibility": "15m - 35m",
+            "currents": "Moderate but can be strong",
+            "surface_conditions": "Can be choppy.",
+            "water_temp": "21°C - 26°C",
+            "experience_level": "Intermediate - Advanced",
+            "number_of_dives_sites": 12,
+            "diving_season": "All year round",
+            "image": "https://www.bluewaterdivetravel.com/images/A06.jpg",
+            "url": "https://www.dive-the-world.com/diving-sites-mexico-socorro-islands.php"
         }
     ],
     "suggestions": [
         {
         "id": 1,
-        "reef": "Osprey Reef",
-        "country": "Australia",
-        "image": "https://media.divebooker.com/media/images/w850/157062410240a32b94dacdeb51c642bdb91d3a4d5d.jpg ",
-        "url": "https://www.dive-the-world.com/diving-sites-australia-great-barrier-reef-osprey-reef.php"
+        "reef": "Lighthouse Reef",
+        "country": "Belize",
+        "image": "https://www.seadancerdivecenter.com/wp-content/uploads/2021/07/hero-sites-Lighthouse.jpg",
+        "url": "https://www.dive-the-world.com/diving-sites-belize-lighthouse-reef.php"
         }
     ]
 

@@ -15,7 +15,7 @@ function App() {
     return dive.reef.toLowerCase().includes(search.toLowerCase()) ||
     dive.country.toLowerCase().includes(search.toLowerCase())
   })
-
+  
   useEffect(() => {
     fetch('http://localhost:3000/sites')
     .then(resp => resp.json())

@@ -1,11 +1,11 @@
 import Search from "./Search"
 
 
-function NavBar() {
+function NavBar({search, setSearch}) {
 
     return (
       <div>
-        <Search />
+        <Search search = {search} setSearch = {setSearch}/>
       </div>
     );
   }

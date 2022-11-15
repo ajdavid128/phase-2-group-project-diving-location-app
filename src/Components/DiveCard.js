@@ -4,7 +4,7 @@ import CardDetails from "./CardDetails"
 function DiveCard({dive}) {
 console.log (dive)
     return (
-      <div className = 'card'>
+      <div className="card">
         <img className="card-image" src={dive.image} alt={dive.reef}/>
         <div className="container">
           <h4>{dive.reef}</h4>

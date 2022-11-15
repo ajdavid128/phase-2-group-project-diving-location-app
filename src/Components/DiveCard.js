@@ -1,15 +1,15 @@
 import CardDetails from "./CardDetails"
 
 
-function DiveCard() {
+function DiveCard({dive}) {
 
     return (
-      <div>
-        <image className="" src="" alt=""/>
-        <h2>Location Name</h2>
-        <h4>Site Name</h4>
-        <small>Coordinates</small>
-        {/* <CardDetails /> */}
+      <div className = 'card'>
+        <img className="card-image" src={dive.image} alt={dive.reef}/>
+        <h2>{dive.reef}</h2>
+        <h4>{dive.country}</h4>
+        {/* <small>{dive.coordinates}</small> */}
+        {/* <CardDetails dive = {dive} /> */}
       </div>
     );
   }

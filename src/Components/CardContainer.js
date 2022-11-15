@@ -2,11 +2,11 @@ import DiveCard from "./DiveCard"
 
 
 
-function CardContainer() {
+function CardContainer({dives}) {
 
     return (
       <div>
-        <DiveCard />
+        {dives.map(dive => <DiveCard key = {dive.id} dive= {dive}/> )}
       </div>
     );
   }

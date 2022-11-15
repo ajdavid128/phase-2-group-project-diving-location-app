@@ -9,7 +9,7 @@ div#root {
   color: white;
 }
 
-navbar {
+.navbar {
   display: inline-block;
   width: 50px;
   padding: 12px;

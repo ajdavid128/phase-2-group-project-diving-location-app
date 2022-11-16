@@ -9,17 +9,17 @@ function NavBar({search, setSearch}) {
       <div>
         <Search search = {search} setSearch = {setSearch}/>
 
-        <NavLink className="navbar" exact to="/home" activeStyle={{
+        <NavLink class="button" role="button" exact to="/home" activeStyle={{
           background: "darkblue",
         }}>
           Home
         </NavLink>
-        <NavLink className="navbar" exact to="/form" activeStyle={{
+        <NavLink class="button" role="button" exact to="/form" activeStyle={{
           background: "darkblue",
         }}>
           Form
         </NavLink>
-        <NavLink className="navbar" exact to="/suggestions" activeStyle={{
+        <NavLink class="button" role="button" exact to="/suggestions" activeStyle={{
           background: "darkblue",
         }}>
           Suggestions
@@ -29,3 +29,4 @@ function NavBar({search, setSearch}) {
   }
   
   export default NavBar;
+  

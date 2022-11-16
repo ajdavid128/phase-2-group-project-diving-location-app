@@ -1,5 +1,6 @@
 import CardDetail from "./CardDetail"
 import {useState} from "react";
+import { Link } from "react-router-dom";
 
 
 function DiveCard({dive}) {
@@ -14,6 +15,14 @@ const handleMouseOut = () => {
   setCardInfo(false);
 }
 
+const handleClick = () => {
+  return (
+  <Link to={`sites/${dive.id}`}></Link>
+  )
+}
+
+
+
 const FlippedCard = () => {
   return (
     <div className="container">
@@ -25,12 +34,14 @@ const FlippedCard = () => {
 
 const cardSide = cardInfo ? <FlippedCard /> : <img className="card-image" src={dive.image} alt={dive.reef}/>
 
-const handleClick = () => {
-  <CardDetail />
-}
 
     return (
-      <div onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} onClick={handleClick} className="card">
+      <div 
+        onMouseOver={handleMouseOver} 
+        onMouseOut={handleMouseOut} 
+        onClick={handleClick}
+        className="card"
+      >
 
         {cardSide}
         {/* <small>{dive.coordinates}</small> */}

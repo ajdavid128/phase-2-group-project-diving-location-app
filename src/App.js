@@ -3,6 +3,7 @@ import React, {useEffect, useState} from "react";
 import NavBar from "./Components/NavBar";
 import Home from "./Components/Home";
 import Form from "./Components/Form";
+import CardDetail from "./Components/CardDetail"
 import LandingPage from "./Components/LandingPage";
 import SuggestionContainer from "./Components/SuggestionContainer";
 import { Route, Switch} from "react-router-dom";
@@ -53,8 +54,8 @@ function App() {
         <Route path="/suggestions">
           <SuggestionContainer suggestions={suggestions}/>
         </Route>
-        <Route path="/home">
-          <Home dives = {filteredDives}/>
+        <Route path="/site/:id">
+          <CardDetail />
         </Route>
       </Switch>
     </div>

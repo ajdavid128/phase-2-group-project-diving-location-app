@@ -1,6 +1,5 @@
 import {useState} from "react";
 
-
 function Form({onAddSuggestion}) {
 
   const initialState = {

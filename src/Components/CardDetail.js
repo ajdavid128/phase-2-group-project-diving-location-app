@@ -10,10 +10,10 @@ function CardDetails() {
     const {id} = useParams();
 
     useEffect(() => {
-        fetch(`http://localhost:3000/suggestions/${id}`)
+        fetch(`http://localhost:3000/sites/${id}`)
         .then(r => r.json())
-        .then(location => {
-            setDiveSite(location)
+        .then((site) => {
+            setDiveSite(site)
             setIsLoaded(true)
         });
     },[id])

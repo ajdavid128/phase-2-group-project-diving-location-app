@@ -1,7 +1,12 @@
+import React, {useEffect, useState} from "react";
+import {useParams} from "react-router-dom";
 
 
 function CardDetails() {
     
+    const [] = useState()
+    const [] = useState()
+
     return (
         <div>
             <image className="" src="" alt=""/>

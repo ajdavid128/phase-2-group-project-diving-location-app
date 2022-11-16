@@ -9,7 +9,7 @@ function NavBar({search, setSearch}) {
       <div>
         <Search search = {search} setSearch = {setSearch}/>
 
-        <NavLink className="navbar" to="/" activeStyle={{
+        <NavLink className="navbar" exact to="/home" activeStyle={{
           background: "darkblue",
         }}>
           Home
@@ -18,6 +18,11 @@ function NavBar({search, setSearch}) {
           background: "darkblue",
         }}>
           Form
+        </NavLink>
+        <NavLink className="navbar" exact to="/suggestions" activeStyle={{
+          background: "darkblue",
+        }}>
+          Suggestions
         </NavLink>
       </div>
     );

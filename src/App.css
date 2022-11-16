@@ -44,3 +44,8 @@ div#root {
   display: inline;
   
 }
+
+.card-img {
+  width: 200px;
+
+}

@@ -10,7 +10,7 @@ function Search({search, setSearch}) {
         placeholder="Search dive site" 
         value = {search}
         onChange = {(e) => setSearch(e.target.value)}
-        ></input>
+        />
         <i>🔎</i>
         {/* <div>
           <input type="checkbox"></input>

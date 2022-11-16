@@ -20,20 +20,25 @@ function CardDetails() {
 
     if (!isLoaded) return <h2>Loading...</h2>;
 
-    // const {reef, country, location_description, dive_summary, depth, visibility, currents, surface_conditions, water_temp, experience_level, number_of_dive_sites, diving_season, image, url} = diveSite;
+    const {reef, country, location_description, dive_summary, depth, visibility, currents, surface_conditions, water_temp, experience_level, number_of_dive_sites, diving_season, image, url} = diveSite;
 
     return (
         <div>
-            <image className="" src="" alt=""/>
-            <h2>Location Name</h2>
-            <h4>Site Name</h4>
+            <div className="Detail_Container">
+            <img className="Detail_Image" src= {image} alt={reef}/>
+            
+
+            <h2>{reef}</h2>
+            <h4>{country}</h4>
             <div>
-                <h3>Certification Level</h3>
-                <h3>Depth Level</h3>
+                <h3>{experience_level}</h3>
+                <h3>{depth}</h3>
             </div>
-            <div>
-                <p>Description</p>
+            
+            <div className="Description_Container">
+                <p>{location_description}</p>
                 <small>Coordinates</small>
+            </div>
             </div>
         </div>
     )

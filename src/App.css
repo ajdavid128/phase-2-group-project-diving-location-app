@@ -85,7 +85,7 @@ div#root {
   touch-action: manipulation;
 
   margin: 10px;
-  font-family: ;
+  /* font-family: ; */
   
 }
 
@@ -100,3 +100,17 @@ div#root {
   background: var(--color);
   color: #fff;
 }
+.Detail_Image{
+  flex-basis: 40%;
+  width: 500px;
+  margin: auto;
+  display: block;
+
+  object-fit: cover;
+}
+.Detail_Container{
+  display: block;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+} 

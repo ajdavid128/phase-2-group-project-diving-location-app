@@ -20,7 +20,7 @@ function CardDetails() {
 
     if (!isLoaded) return <h2>Loading...</h2>;
 
-    const {reef, country, location_description, dive_summary, depth, visibility, currents, surface_conditions, water_temp, experience_level, number_of_dive_sites, diving_season, image, url} = diveSite;
+    // const {reef, country, location_description, dive_summary, depth, visibility, currents, surface_conditions, water_temp, experience_level, number_of_dive_sites, diving_season, image, url} = diveSite;
 
     return (
         <div>

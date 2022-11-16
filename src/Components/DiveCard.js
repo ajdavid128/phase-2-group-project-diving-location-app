@@ -15,13 +15,12 @@ const handleMouseOut = () => {
   setCardInfo(false);
 }
 
-const handleClick = () => {
-  return (
-  <Link to={`sites/${dive.id}`}></Link>
-  )
-}
-
-
+// const handleClick = () => {
+//   return (
+  
+//   // console.log("hi")
+//   )
+// }
 
 const FlippedCard = () => {
   return (
@@ -36,17 +35,20 @@ const cardSide = cardInfo ? <FlippedCard /> : <img className="card-image" src={d
 
 
     return (
-      <div 
-        onMouseOver={handleMouseOver} 
-        onMouseOut={handleMouseOut} 
-        onClick={handleClick}
-        className="card"
-      >
-
-        {cardSide}
-        {/* <small>{dive.coordinates}</small> */}
-        {/* <CardDetails dive = {dive} /> */}
-      </div>
+      
+        <div 
+          onMouseOver={handleMouseOver} 
+          onMouseOut={handleMouseOut} 
+          // onClick={handleClick}
+          className="card"
+        >
+          <Link to={`site/${dive.id}`}>
+          {cardSide}
+          </Link>
+          {/* <small>{dive.coordinates}</small> */}
+          {/* <CardDetails dive = {dive} /> */}
+        </div>
+      
     );
   }
   

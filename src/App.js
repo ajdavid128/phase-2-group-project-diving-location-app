@@ -1,6 +1,6 @@
 import "./App.css";
 import React, {useEffect, useState} from "react";
-import NavBar from "./Components/NavBar";
+// import NavBar from "./Components/NavBar";
 import Home from "./Components/Home";
 import Form from "./Components/Form";
 import CardDetail from "./Components/CardDetail"
@@ -40,19 +40,19 @@ function App() {
 
   return (
     <div>
-      <NavBar search = {search} setSearch = {setSearch}/>
+      {/* <NavBar search = {search} setSearch = {setSearch}/> */}
       <Switch>
         <Route exact path="/">
           <LandingPage />
         </Route>
         <Route path="/home">
-          <Home dives = {filteredDives}/>
+          <Home dives = {filteredDives} search = {search} setSearch = {setSearch}/>
         </Route>
         <Route path="/form">
-          <Form onAddSuggestion={onAddSuggestion}/>
+          <Form onAddSuggestion={onAddSuggestion} search = {search} setSearch = {setSearch}/>
         </Route>
         <Route path="/suggestions">
-          <SuggestionContainer suggestions={suggestions}/>
+          <SuggestionContainer suggestions={suggestions} search = {search} setSearch = {setSearch}/>
         </Route>
         <Route path="/site/:id">
           <CardDetail />

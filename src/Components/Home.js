@@ -1,11 +1,13 @@
 import CardContainer from "./CardContainer"
+import NavBar from "./NavBar";
 
 
-function Home({dives}) {
+function Home({dives, search, setSearch}) {
 
 
     return (
       <div>
+        <NavBar search = {search} setSearch = {setSearch}/>
         <CardContainer dives = {dives} />
       </div>
     );

@@ -1,98 +1,28 @@
-/* @font-face{
-  font-family:;
-  src:
-} */
-
 body {
   margin: 0;
   font-family: Abel;
-}
-
-.navbar {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-/* 
-.navbar a {
-  float: left;
-} */
-
-
-/* ---------------------------------- */
-
-div#root {
-  background-color: #252527;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  margin: 0;
-}
-
-/* .navbar {
-  display: inline-block;
-  width: 50px;
-  padding: 12px;
-  margin: 0 6px 6px;
-  background: blue;
-  text-Decoration: none;
-  color: white;
-} */
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0);
-  transition: 0.3s;
-  width: 40%;
-  width: calc(33% - 2rem);
-  flex-basis: auto
-} 
-
-.card-container {
-  display: flex;
-  flex-flow: row wrap;
-  gap: 10px;
-  gap: 10px 20px;
-  row-gap: 10px;
-  column-gap: 20px;
-}
-
-.card-image{
-  width: 100%;
-  height: 100%;
-  flex-basis: auto;
-  flex-flow: row wrap;
-  display: inline;
-  
-}
-a:link {
-  color: #e3caab;
-}
-a:visited {
-  color: #e3b093;
-}
-.container{
-  border: #e3b093;
-  border-color: #e3b093;
-  color: #e3caab;
-  width: 100%;
-  height: 100%;
-
-  
-}
-
-.card-img {
-  width: 200px;
-
+  background-color: #282c34;
 }
 
 .divrLogo {
   display: flex;
   margin: auto;
+  width: 70%;
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px; */
+}
+
+
+/* --------- NAVBAR STYLING --------- */
+
+#titleNav {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  margin-top: 13px;
+  color: #e3caab;
+  font-size: 35px;
 }
 
 .navbar {
@@ -101,7 +31,7 @@ a:visited {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 50px;
+  height: 65px;
 }
 
 small {
@@ -114,9 +44,10 @@ small {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 16px 25px;
+  margin-left: 1%;
+  padding: 18px 30px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 
   --b: 3px;   /* border thickness */
   --s: .45em; /* size of the corner */
@@ -149,10 +80,124 @@ small {
   padding: 0 1.6rem;
   border-radius: .7rem;
   position: absolute; /* MDN position */
-  top: 8px;
+  top: 15px;
   right: 2%;
 }
 
+/* --------- FORM STYLING --------- */
+
+form {
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 200px;
+  
+  color: #e3caab;
+  font-size: 20px;
+
+  border-radius: 10px;
+  background-color: #282c34;
+  padding: 20px;
+  padding-bottom: 80px;
+}
+
+#formH1 {
+  margin-top: 10px;
+  font-size: 50px;
+  text-align: center;
+
+}
+
+.formInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#formSubmit {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 30px;
+  text-decoration: none;
+  font-size: 20px;
+
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #e3b093; 
+  color: #e3caab;
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),
+    #0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p)
+    )
+    ;
+  transition: .3s linear, color 0s;
+  border: 0;
+}
+
+#formSubmit:hover {
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+
+}
+
+/* --------- HOME PAGE STYLING --------- */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0);
+  transition: 0.3s;
+  width: 40%;
+  width: calc(33% - 2rem);
+  flex-basis: auto
+} 
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  gap: 10px 20px;
+  row-gap: 10px;
+  column-gap: 20px;
+}
+
+.card-image{
+  width: 100%;
+  height: 100%;
+  flex-basis: auto;
+  flex-flow: row wrap;
+  display: inline;
+}
+
+a:link {
+  color: #e3caab;
+}
+a:visited {
+  color: #e3b093;
+}
+.container{
+  border: #e3b093;
+  border-color: #e3b093;
+  color: #e3caab;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* --------- SUGGESTION CARD --------- */
+
+.card-img {
+  width: 200px;
+}
+
+
+/* --------- DETAILS --------- */
 
 .Detail_Images{
   flex-basis: 40%;
@@ -165,6 +210,7 @@ small {
   object-fit: cover;
 
 }
+
 .row {
   display: flex;
 }
@@ -173,14 +219,16 @@ small {
   flex: 33.33%;
   padding: 5px;
 }
-.Detail_Container{
+
+.Detail_Container {
   display: block;
   justify-content: center;
   margin: auto;
   text-align: center;
   color: #e3caab;
 } 
-.small{
+
+.small {
   color: #e3b093;
 }
 

@@ -1,9 +1,12 @@
-import DivrTransparent from "../Images/DivrTransparent.png"
+import DivrTransparent from "../Images/DivrResize.png"
+import { Link } from "react-router-dom";
 
 function LandingPage() {
 
     return (
-        <img className="divrLogo" src={DivrTransparent} alt="Divr Logo"/>
+        <Link to={'/home'}>
+            <img className="divrLogo" src={DivrTransparent} alt="Divr Logo"/>
+        </Link>
     )
 }
 

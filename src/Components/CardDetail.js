@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
+import NavBar from "./NavBar";
 
-
-function CardDetails() {
+function CardDetails(search, setSearch) {
     
     const [diveSite, setDiveSite] = useState(null)
     const [isLoaded, setIsLoaded] = useState(false)
@@ -27,21 +27,19 @@ function CardDetails() {
 
     const imageArray = diveSite.images.map((eachImage) => {
         return (
-            <>
-                <div class="column">
-                <img className="Detail_Images" key={eachImage.image} src={eachImage.image} alt={reef}/>
+            <div key={eachImage.image}>
+                <div className="column">
+                    <img className="Detail_Images" src={eachImage.image} alt={reef}/>
                 </div>
-            </>
+            </div>
             )
     })
 
-
-
-
     return (
         <div>
+            <NavBar search = {search} setSearch = {setSearch}/>
             <div className="Detail_Container">
-                <div class="row">
+                <div className="row">
                     {imageArray}
                 </div>
             <h2>{country}</h2>

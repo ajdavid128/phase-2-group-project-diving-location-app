@@ -1,6 +1,7 @@
 import SuggestionCard from "./SuggestionCard";
+import NavBar from "./NavBar";
 
-function SuggestionContainer({suggestions}) {
+function SuggestionContainer({suggestions, search, setSearch}) {
 
     const suggestionArray = suggestions.map(suggest => {
         return <SuggestionCard key={suggest.id} {...suggest}/>
@@ -8,6 +9,7 @@ function SuggestionContainer({suggestions}) {
 
     return (
         <div>
+            <NavBar search = {search} setSearch = {setSearch}/>
             {suggestionArray}
         </div>
     )

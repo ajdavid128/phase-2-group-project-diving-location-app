@@ -1,6 +1,7 @@
 import {useState} from "react";
+import NavBar from "./NavBar";
 
-function Form({onAddSuggestion}) {
+function Form({onAddSuggestion, search, setSearch}) {
 
   const initialState = {
     reef: "",
@@ -39,11 +40,13 @@ function Form({onAddSuggestion}) {
 
     return (
       <section>
+        <NavBar search = {search} setSearch = {setSearch}/>
         <form onSubmit={handleSubmit} className="form" autoComplete="off">
-          <h3>Request Diving Information Based On Location</h3>
+        <h1 id="formH1" >Request Diving Information Based On Location</h1>
 
           <label htmlFor="reef">Reef (if known)</label>
           <input
+            className="formInput"
             type="text"
             id="reef"
             name="reef"
@@ -53,6 +56,7 @@ function Form({onAddSuggestion}) {
 
           <label htmlFor="country">Country</label>
           <input
+            className="formInput"
             type="text"
             id="country"
             name="country"
@@ -62,6 +66,7 @@ function Form({onAddSuggestion}) {
 
           <label htmlFor="image">Image</label>
           <input 
+            className="formInput"
             type="text"
             id="image"
             name="image"
@@ -71,13 +76,14 @@ function Form({onAddSuggestion}) {
 
           <label htmlFor="url">Known Links</label>
           <input
+            className="formInput"
             type="text"
             id="url"
             name="url"
             onChange={handleChange}
             value={formData.url}
           />
-          <button className="button-16" type="submit">Submit Request</button>
+          <button id="formSubmit" className="formInput" type="submit">Submit Request</button>
         </form>
       </section>
     );

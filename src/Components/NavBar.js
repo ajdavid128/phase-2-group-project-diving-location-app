@@ -1,4 +1,4 @@
-import Search from "./Search"
+// import Search from "./Search"
 import React from "react";
 import {NavLink} from "react-router-dom"
 
@@ -24,9 +24,9 @@ function NavBar({search, setSearch}) {
         <h1 id="titleNav">
             DIVR
         </h1>
-        <div className="searchDiv">
+        {/* <div className="searchDiv">
           <Search search = {search} setSearch = {setSearch}/>
-        </div>
+        </div> */}
       </div>
     );
   }

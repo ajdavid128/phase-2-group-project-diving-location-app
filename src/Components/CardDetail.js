@@ -22,13 +22,21 @@ function CardDetails() {
 
     if (!isLoaded) return <h2>Loading...</h2>;
 
-    const {reef, country, location_description, dive_summary, depth, visibility, currents, surface_conditions, water_temp, experience_level, number_of_dive_sites, diving_season, image, url} = diveSite;
+    const {reef, country, location_description, dive_summary, depth, visibility, currents, surface_conditions, water_temp, experience_level, number_of_dive_sites, diving_season, url} = diveSite;
+    
+    const imageArray = diveSite.images.map((eachImage) => {
+        return (
+                <img className="Detail_Image" key={eachImage.image} src={eachImage.image} alt={reef}/>
+            )
+    })
+
+
+   
 
     return (
         <div>
             <div className="Detail_Container">
-            <img className="Detail_Image" src= {image} alt={reef}/>
-            
+            {imageArray}
 
             <h2>{reef}</h2>
             <h4>{country}</h4>

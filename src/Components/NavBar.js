@@ -3,27 +3,26 @@ import React from "react";
 import {NavLink, Link} from "react-router-dom"
 
 
+
 function NavBar({search, setSearch}) {
 
     return (
-      <div>
-        <Search search = {search} setSearch = {setSearch}/>
-
-        <NavLink class="button" role="button" exact to="/home" activeStyle={{
-          background: "darkblue",
-        }}>
-          Home
-        </NavLink>
-        <NavLink class="button" role="button" exact to="/form" activeStyle={{
-          background: "darkblue",
-        }}>
-          Form
-        </NavLink>
-        <NavLink class="button" role="button" exact to="/suggestions" activeStyle={{
-          background: "darkblue",
-        }}>
-          Suggestions
-        </NavLink>
+      <div className="navbar" >
+        <div>
+          <NavLink className="navLogo" role="button" exact to="/home">DIVR</NavLink>
+          <NavLink role="button" exact to="/home">
+            Home
+          </NavLink>
+          <NavLink role="button" exact to="/form">
+            Form
+          </NavLink>
+          <NavLink role="button" exact to="/suggestions">
+            Suggestions
+          </NavLink>
+        </div>
+        <div className="searchDiv">
+          <Search search = {search} setSearch = {setSearch}/>
+        </div>
       </div>
     );
   }

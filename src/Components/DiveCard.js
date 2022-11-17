@@ -15,12 +15,7 @@ const handleMouseOut = () => {
   setCardInfo(false);
 }
 
-// const handleClick = () => {
-//   return (
-  
-//   // console.log("hi")
-//   )
-// }
+const firstImage = dive.images[0].image
 
 const FlippedCard = () => {
   return (
@@ -31,8 +26,7 @@ const FlippedCard = () => {
   );
 }
 
-const cardSide = cardInfo ? <FlippedCard /> : <img className="card-image" src={dive.image} alt={dive.reef}/>
-
+const cardSide = cardInfo ? <FlippedCard /> : <img className="card-image" src={firstImage} alt={dive.reef}/>
 
     return (
       

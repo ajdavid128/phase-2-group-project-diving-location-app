@@ -1,9 +1,9 @@
-import DivrLogo from "../Images/DivrBlack.png"
+import DivrTransparent from "../Images/DivrTransparent.png"
 
 function LandingPage() {
 
     return (
-        <img className="divr" src={DivrLogo} alt="Divr Logo"/>
+        <img className="divrLogo" src={DivrTransparent} alt="Divr Logo"/>
     )
 }
 

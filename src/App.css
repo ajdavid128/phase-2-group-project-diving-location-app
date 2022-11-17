@@ -3,6 +3,24 @@
   src:
 } */
 
+body {
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* 
+.navbar a {
+  float: left;
+} */
+
+
+/* ---------------------------------- */
+
 div#root {
   background-color: #282c34;
   min-height: 100vh;
@@ -12,9 +30,10 @@ div#root {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0;
 }
 
-.navbar {
+/* .navbar {
   display: inline-block;
   width: 50px;
   padding: 12px;
@@ -22,7 +41,7 @@ div#root {
   background: blue;
   text-Decoration: none;
   color: white;
-}
+} */
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0);
@@ -55,51 +74,70 @@ div#root {
 
 }
 
-.divr {
-  padding: 50px;
+.divrLogo {
+  display: flex;
+  margin: auto;
 }
 
+.navbar {
+  overflow: hidden;
+  background-color: #282c34;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+}
 
-/* CSS */
-.button {
+small {
+  font-size: 17px;
+  color: white
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 25px;
+  text-decoration: none;
+  font-size: 17px;
+
   --b: 3px;   /* border thickness */
   --s: .45em; /* size of the corner */
   --color: #e3b093; 
-  
-  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
-  /* color: var(--color); */
   color: #e3caab;
   --_p: var(--s);
   background:
     conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
     var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
-  transition: .3s linear, color 0s, background-color 0s;
-  outline: var(--b) solid #0000;
-  outline-offset: .6em;
-  font-size: 20px;
-
+  transition: .3s linear, color 0s;
   border: 0;
-
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-
-  margin: 10px;
-  /* font-family: ; */
-  
 }
 
-.button:hover,
-.button:focus-visible{
+.navbar a:hover {
+  /* background: #ddd;
+  color: black; */
   --_p: 0px;
   outline-color: var(--color);
   outline-offset: .05em;
+
 }
 
-.button:active {
-  background: var(--color);
-  color: #fff;
+.searchbar {
+  font-family: "Lato", sans-serif;
+  border: 0;
+  font-size: 1.8rem;
+
+  outline: 0;
+  width: 300px;
+  padding: 0 1.6rem;
+  border-radius: .7rem;
+  position: absolute; /* MDN position */
+  top: 8px;
+  right: 2%;
 }
+
+
 .Detail_Image{
   flex-basis: 40%;
   width: 500px;

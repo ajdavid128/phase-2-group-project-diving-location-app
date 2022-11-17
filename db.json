@@ -14,7 +14,11 @@
       "experience_level": "Intermediate",
       "number_of_dives_sites": 15,
       "diving_season": "Thanks to North Queensland's tropical climate, the northern Great Barrier Reef is a year round diving destination. The average water temperature never dips below 22°C in winter, with an average of a toasty 29°C during summer.",
-      "image": "https://media.divebooker.com/media/images/w850/157062410240a32b94dacdeb51c642bdb91d3a4d5d.jpg ",
+      "images": [
+        {"image": "https://media.divebooker.com/media/images/w850/157062410240a32b94dacdeb51c642bdb91d3a4d5d.jpg"},
+        {"image": "https://www.wwf.org.au/Images/UserUploadedImages/416/img-fish-osprey-reef-coral-sea-1000px.jpg"},
+        {"image": "https://www.123tauchsport.de/wp-content/uploads/2021/07/korallenriff-elphinstone-reef.jpeg"}
+      ],
       "url": "https://www.dive-the-world.com/diving-sites-australia-great-barrier-reef-osprey-reef.php"
     },
     {
@@ -31,7 +35,11 @@
       "experience_level": "Beginner - Advanced",
       "number_of_dives_sites": 5,
       "diving_season": "As Bougainville is only visited by liveaboards that go to Osprey Reef, you should consult the diving season of Osprey Reef when considering your Great Barrier Reef vacation. Bougainville is subject to similar weather influences to Osprey Reef although it can enjoy more settled conditions when Osprey Reef is being exposed to heavy winds. This explains why it is occasionally visited as an alternative to Osprey Reef.",
-      "image": "https://hotgetaways.com.au/wp-content/uploads/2013/03/coral-sea-coral.jpg",
+      "images": [
+        {"image": "https://hotgetaways.com.au/wp-content/uploads/2013/03/coral-sea-coral.jpg"},
+        {"image": "https://www.kasgezirehberi.com/content/images/neyapilir/begonvil/x10.jpg.pagespeed.ic.TZEeAearog.jpg"},
+        {"image": "https://cairnsdiveadventures.com.au/wp-content/uploads/2019/04/bougainville-reef-coral.jpg"}
+      ],
       "url": "https://www.dive-the-world.com/diving-sites-australia-great-barrier-reef-bougainville.php#sites"
     },
     {
@@ -48,7 +56,11 @@
       "experience_level": "Beginner - Advanced",
       "number_of_dives_sites": 8,
       "diving_season": "As Holmes Reef is only visited by liveaboards that go to Osprey Reef, you should consult the diving season of Osprey Reef when considering your Great Barrier Reef vacation. Holmes Reef is subject to similar weather influences to Osprey Reef although variations do occur. As such Homes Reef is something of a fair weather destination.",
-      "image": "https://www.dive-the-world.com/images/gallery/pages/medium/86c4a35556-false-entrance-osprey-reef.jpg",
+      "images": [
+        {"image": "https://www.dive-the-world.com/images/gallery/pages/medium/86c4a35556-false-entrance-osprey-reef.jpg"},
+        {"image": "https://media-cdn.tripadvisor.com/media/photo-s/12/f6/0a/59/nonkibommie-reef-site.jpg"},
+        {"image": "https://bonatravels.files.wordpress.com/2017/02/featured1.jpg?w=900"}
+      ],
       "url": "https://www.dive-the-world.com/diving-sites-australia-great-barrier-reef-holmes-reef.php"
     },
     {
@@ -65,7 +77,11 @@
       "experience_level": "Advanced Only",
       "number_of_dives_sites": 15,
       "diving_season": "You can dive in Alor all year round, but the best conditions are from April to November, with October and November being the months when current is most prevalent. Outside of that time the surface conditions can be unsettled and there is greater chance of rain and reduced visibility. However, although the chance of such disturbances are higher at this time, the weather is usually pretty settled and many scuba divers visit at any time of the year and enjoy great conditions.",
-      "image": "https://www.bluewaterdivetravel.com/sites/default/files/Alor2.jpg",
+      "images": [
+        {"image": "https://www.bluewaterdivetravel.com/sites/default/files/Alor2.jpg"},
+        {"image": "https://alor-divers.com/wp-content/uploads/2016/01/reef-top-Alor.jpg"},
+        {"image": "https://www.bluewaterdivetravel.com/sites/default/files/alor-erik.jpg"}
+      ],
       "url": "https://www.dive-the-world.com/diving-sites-indonesia-alor.php"
     },
     {
@@ -82,7 +98,11 @@
       "experience_level": "Beginner - Advanced",
       "number_of_dives_sites": 50,
       "diving_season": "The dive season is year round in Bali although conditions do vary from time to time and location to location. December to March is rainy season (although most days it doesn't rain) and there are fewer scuba divers around. However, visibility is sometimes a little reduced around the north and west of the island.",
-      "image": "https://villabossibali.com/sites/default/files/styles/image_wall_full/public/activity/diving_menjangan-2.jpg?itok=DOBX_RM6",
+      "images": [
+        {"image": "https://villabossibali.com/sites/default/files/styles/image_wall_full/public/activity/diving_menjangan-2.jpg?itok=DOBX_RM6"},
+        {"image": "https://s3-cdn.designerjourneys.com/blog/wp-content/uploads/2017/05/17174701/BaliDiving1a.jpg"},
+        {"image": "https://all.accor.com/magazine/imagerie/barriere%20de%20corail%20bali%20content.jpg"}
+      ],
       "url": "https://www.dive-the-world.com/diving-sites-indonesia-bali.php#sites"
     },
     {
@@ -99,7 +119,11 @@
       "experience_level": "Intermediate - Advanced",
       "number_of_dives_sites": 35,
       "diving_season": "You can go liveaboard diving in Komodo all year round. The charters here do not close for an off-season because every month of the year promises top quality action. Some boats operate here every month, others visit for a few months. Availability peaks with the highest number of tours in Komodo being between April and August, while some visiting liveaboards stay as late as November.",
-      "image": "https://www.komododivecenter.com/wp-content/uploads/manta-train-komodo.jpg",
+      "images": [
+        {"image": "https://www.komododivecenter.com/wp-content/uploads/manta-train-komodo.jpg"},
+        {"image": "https://www.sunrise-divers.com/wp-content/uploads/2017/05/manta-ray-komodo.jpg "},
+        {"image": "https://i.ytimg.com/vi/pYd09cwGxfE/maxresdefault.jpg"}
+      ],
       "url": "https://www.dive-the-world.com/diving-sites-indonesia-komodo.php"
     },
     {
@@ -116,7 +140,11 @@
       "experience_level": "Beginner - Advanced",
       "number_of_dives_sites": 200,
       "diving_season": "The recommended months for confirmed liveaboard departures are from November to May but the Maldives scuba diving holiday season runs all year round. If you wish to come outside of November to May it may be more difficult to find a departure date that suits you.",
-      "image": "https://guesthouses-in-maldives.net/wp-content/uploads/maldives-diving.jpg",
+      "images": [
+        {"image": "https://guesthouses-in-maldives.net/wp-content/uploads/maldives-diving.jpg"},
+        {"image": "https://caradonna-prod.s3.us-east-2.amazonaws.com/prod/styles/hero/s3/6-maldives-h_underwater.jpg?itok=dR-4tt70"},
+        {"image": "https://www.regal-diving.co.uk/sites/default/files/styles/slideshow_main/public/502.jpg"}
+      ],
       "url": "https://www.dive-the-world.com/diving-sites-maldives.php"
     },
     {
@@ -133,7 +161,11 @@
       "experience_level": "Intermediate - Advanced",
       "number_of_dives_sites": 30,
       "diving_season": "January through June is wet season with sunny spells either side of the brief but impressive showers which can occur daily. This period has warmer water temperatures generally fluctuating between 68 to 77°F (20-25°C). January through April can even push the temperatures up as far as 81 or 82°F (27-28°C) in some places, if you are lucky. Dry season, more or less from July through December, sees less rain but is also cooler above and below the waters. Water temperatures in dry season are usually 66 to 73°F (19-23°C). This is when there is a strong chance of multiple whale shark encounters and is often referred to as 'Peak Tourist Season'. It is the busiest time and many aficionados would not think of visiting outside of peak season.",
-      "image": "https://divemagazine.com/wp-content/uploads/2021/11/16__DSC0615-1_opt.jpeg",
+      "images": [
+        {"image": "https://divemagazine.com/wp-content/uploads/2021/11/16__DSC0615-1_opt.jpeg"},
+        {"image": "https://caradonna-prod.s3.us-east-2.amazonaws.com/prod/styles/hero/s3/6-galapagos-h_underwater_1.jpg?itok=Mdk7Oech"},
+        {"image": "https://static.metrojourneys.com/wp-content/uploads/2019/05/deep-dive-galapagos.jpg"}
+      ],
       "url": "https://www.dive-the-world.com/diving-sites-galapagos.php"
     },
     {
@@ -150,7 +182,11 @@
       "experience_level": "Beginner - Advanced",
       "number_of_dives_sites": 200,
       "diving_season": "Egypt is a fine choice for scuba diving any time of year but the water temperatures do vary significantly. From June to August the water can reach 30°C but it falls to a chilly 22°C in February. ",
-      "image": "https://scubadiverlife.com/wp-content/uploads/2014/08/Dollarphotoclub_45134706-1024x678.jpg",
+      "images": [
+        {"image": "https://scubadiverlife.com/wp-content/uploads/2014/08/Dollarphotoclub_45134706-1024x678.jpg"},
+        {"image": "https://www.scubadivermag.com/wp-content/uploads/2019/08/Red-Sea-Diving-Destinations.jpeg"},
+        {"image": "https://www.scubadiving.com/sites/scubadiving.com/files/styles/500_1x_/public/images/2020/04/scott-johnson-reef-red-sea-egypt-web.jpg?itok=M60hGjUb&fc=50,50"}
+      ],
       "url": "https://www.dive-the-world.com/diving-sites-egypt-red-sea.php"
     },
     {
@@ -167,9 +203,12 @@
       "experience_level": "Beginner - Advanced",
       "number_of_dives_sites": 250,
       "diving_season": "Although November through to April is the best time for optimum site conditions, the Thailand scuba diving season runs all year round. This is reflected in the period when liveaboards run to the Similan Islands (late-October to mid-May). The best time to see whale sharks is between February and May when there is a higher concentration of plankton. This time of year is also the best for manta ray sightings although the number of sightings varies from year to year.",
-      "image": "https://www.adventureinyou.com/wp-content/uploads/2016/06/best-dive-spots-thailand-LEAD.jpg",
-      "url": "https://www.dive-the-world.com/diving-sites-thailand.php"
-    },
+      "images": [
+        {"image": "https://www.adventureinyou.com/wp-content/uploads/2016/06/best-dive-spots-thailand-LEAD.jpg"},
+        {"image": "https://kohtaodivers.com/templates/yootheme/cache/1kohtaodiving-specialtycourse-thailand-scuba-42cd8640.jpeg"},
+        {"image": "https://scubasplash.com/wp-content/uploads/2020/12/sattakut.jpg"}
+      ],
+    "url": "https://www.dive-the-world.com/diving-sites-thailand.php"},
     {
       "id": 11,
       "reef": "Multiple",
@@ -184,7 +223,11 @@
       "experience_level": "Beginner - Advanced",
       "number_of_dives_sites": ">50",
       "diving_season": "All year round",
-      "image": "https://www.villaesencia.com/wp-content/uploads/2022/01/Scuba-Diver-At-Coral-Reef.jpg",
+      "images": [
+        {"image": "https://www.villaesencia.com/wp-content/uploads/2022/01/Scuba-Diver-At-Coral-Reef.jpg"},
+        {"image": "https://royalwestindies.com/wp-content/uploads/2016/11/snorkel.jpg"},
+        {"image": "https://d2p1cf6997m1ir.cloudfront.net/media/c83opt/7a/05/7a05772b04b3535dddede392ad30082b.jpg"}
+      ],
       "url": "https://www.dive-the-world.com/diving-sites-turks-and-caicos-islands.php"
     },
     {
@@ -201,7 +244,11 @@
       "experience_level": "Intermediate - Advanced",
       "number_of_dives_sites": 12,
       "diving_season": "All year round",
-      "image": "https://www.bluewaterdivetravel.com/images/A06.jpg",
+      "images": [
+        {"image": "https://www.bluewaterdivetravel.com/images/A06.jpg"},
+        {"image": "https://www.scubadiving.com/sites/scubadiving.com/files/styles/500_1x_/public/images/2017/07/mexico_socorro_islands_humpback_and_calf_scd0717_.jpg?itok=GwwOBncr&fc=50,50"},
+        {"image": "https://dsvsbigncb06y.cloudfront.net/site/diving/mexico/liveaboard-mexico-solmar-v-xxl.jpg"}
+      ],
       "url": "https://www.dive-the-world.com/diving-sites-mexico-socorro-islands.php"
     }
   ],

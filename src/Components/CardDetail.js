@@ -9,6 +9,8 @@ function CardDetails() {
 
     const {id} = useParams();
 
+    
+
     useEffect(() => {
         fetch(`http://localhost:3000/sites/${id}`)
         .then(r => r.json())
@@ -30,14 +32,17 @@ function CardDetails() {
 
             <h2>{reef}</h2>
             <h4>{country}</h4>
+            <h6>{dive_summary}</h6>
+            <p>{number_of_dive_sites}</p>
             <div>
                 <h3>{experience_level}</h3>
                 <h3>{depth}</h3>
             </div>
             
             <div className="Description_Container">
+                <h6>{diving_season}</h6>
                 <p>{location_description}</p>
-                <small>Coordinates</small>
+                <small>{url}</small>
             </div>
             </div>
         </div>

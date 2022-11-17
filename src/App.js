@@ -49,10 +49,10 @@ function App() {
           <Home dives = {filteredDives} search = {search} setSearch = {setSearch}/>
         </Route>
         <Route path="/form">
-          <Form onAddSuggestion={onAddSuggestion} search = {search} setSearch = {setSearch}/>
+          <Form onAddSuggestion={onAddSuggestion}/>
         </Route>
         <Route path="/suggestions">
-          <SuggestionContainer suggestions={suggestions} search = {search} setSearch = {setSearch}/>
+          <SuggestionContainer suggestions={suggestions}/>
         </Route>
         <Route path="/site/:id">
           <CardDetail />

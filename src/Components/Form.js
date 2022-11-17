@@ -40,7 +40,7 @@ function Form({onAddSuggestion, search, setSearch}) {
 
     return (
       <section>
-        <NavBar search = {search} setSearch = {setSearch}/>
+        <NavBar/>
         <form onSubmit={handleSubmit} className="form" autoComplete="off">
         <h1 id="formH1" >Request Diving Information Based On Location</h1>
 

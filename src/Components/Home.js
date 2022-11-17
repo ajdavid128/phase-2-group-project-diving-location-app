@@ -1,13 +1,16 @@
 import CardContainer from "./CardContainer"
 import NavBar from "./NavBar";
-
+import Search  from "./Search";
 
 function Home({dives, search, setSearch}) {
 
 
     return (
       <div>
-        <NavBar search = {search} setSearch = {setSearch}/>
+        <NavBar/>
+        <div className="searchDiv">
+          <Search search = {search} setSearch = {setSearch}/>
+        </div>
         <CardContainer dives = {dives} />
       </div>
     );

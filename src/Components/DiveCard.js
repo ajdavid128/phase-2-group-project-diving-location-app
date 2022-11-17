@@ -1,4 +1,4 @@
-import CardDetail from "./CardDetail"
+
 import {useState} from "react";
 import { Link } from "react-router-dom";
 
@@ -19,9 +19,11 @@ const firstImage = dive.images[0].image
 
 const FlippedCard = () => {
   return (
+    
     <div className="container">
-      <h4>{dive.reef}</h4>
-      <h6>{dive.country}</h6>
+      <h4>{dive.country}</h4>
+      <h6>{dive.reef}</h6>
+      <p>{dive.dive_summary}</p>
     </div>
   );
 }

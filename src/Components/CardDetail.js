@@ -22,35 +22,41 @@ function CardDetails() {
 
     if (!isLoaded) return <h2>Loading...</h2>;
 
-    const {reef, country, location_description, dive_summary, depth, visibility, currents, surface_conditions, water_temp, experience_level, number_of_dive_sites, diving_season, url} = diveSite;
-    
+    const {reef, country, location_description, dive_summary, depth, experience_level, number_of_dives_sites, diving_season, url} = diveSite;
+    // visibility, currents, surface_conditions, water_temp,
+
     const imageArray = diveSite.images.map((eachImage) => {
         return (
-                <img className="Detail_Image" key={eachImage.image} src={eachImage.image} alt={reef}/>
+            <>
+                <div class="column">
+                <img className="Detail_Images" key={eachImage.image} src={eachImage.image} alt={reef}/>
+                </div>
+            </>
             )
     })
 
 
-   
+
 
     return (
         <div>
             <div className="Detail_Container">
-            {imageArray}
-
-            <h2>{reef}</h2>
-            <h4>{country}</h4>
-            <h6>{dive_summary}</h6>
-            <p>{number_of_dive_sites}</p>
-            <div>
-                <h3>{experience_level}</h3>
-                <h3>{depth}</h3>
+                <div class="row">
+                    {imageArray}
+                </div>
+            <h2>{country}</h2>
+            <h4>{reef}</h4>
+            <h6>Dive Summary: {dive_summary}</h6>
+            <p>Dive Sites: {number_of_dives_sites}</p>
+            <div className="Small_Details">
+                <h3>Experience Level:{experience_level}</h3>
+                <h3>Depth: {depth}</h3>
             </div>
             
             <div className="Description_Container">
-                <h6>{diving_season}</h6>
-                <p>{location_description}</p>
-                <small>{url}</small>
+                <h6>Diving Season: {diving_season}</h6>
+                <p>Location Description: {location_description}</p>
+                <small className = 'small'>Further Research: {url}</small>
             </div>
             </div>
         </div>

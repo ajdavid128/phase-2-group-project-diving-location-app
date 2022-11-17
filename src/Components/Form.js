@@ -77,7 +77,7 @@ function Form({onAddSuggestion}) {
             onChange={handleChange}
             value={formData.url}
           />
-          <button type="submit">Submit Request</button>
+          <button className="button-16" type="submit">Submit Request</button>
         </form>
       </section>
     );

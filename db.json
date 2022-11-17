@@ -128,7 +128,7 @@
     },
     {
       "id": 7,
-      "reef": "Multiple",
+      "reef": "Multiple Dive Sites",
       "country": "Maldives",
       "location_description": "Although the Maldives are known the world over for the stunning beaches and azure waters that typify the tropical holiday idyll, its life beneath the water's surface is becoming ever more respected by scuba divers in the know. The Maldive Islands have some good coral reefs, but it's the abundance of marine life throughout the country that sets it apart from other dive destinations around the world.",
       "dive_summary": "Most dives in the Maldives are drifts from liveaboards where you allow the current to move you along. Due to the myriad channels and passages between the atolls, the currents sweep and play throughout the island chain so that nutrients are always on the move. This accounts for the vast numbers of fish enjoying the passing feast and you can expect to see Napoleon wrasse, parrotfish, snappers, fusiliers, jacks and sweetlips at every site where the water flows.",
@@ -149,7 +149,7 @@
     },
     {
       "id": 8,
-      "reef": "Multiple",
+      "reef": "Multiple Dive Sites",
       "country": "Galapagos Islands",
       "location_description": "This legendary Ecuador diving destination is often considered by experienced divers to represent something of a pinnacle in their scuba careers. In that sense, many agree that, quite simply, the Galapagos Islands have the best liveaboard diving trips in the world, plus incredible non-diving wildlife adventure cruises.",
       "dive_summary": "Such is the range of creatures, that it is difficult to avoid lists when discussing Galapagos scuba diving. Imagining a vacation involving sea lions, penguins, seals, eagle rays, marine iguanas, sea turtles, golden rays, whale sharks, hammerheads and many other shark species, is a phenomenal experience. These encounters, which are at once educational and exciting, make the appeal of the archipelago obvious.",
@@ -191,7 +191,7 @@
     },
     {
       "id": 10,
-      "reef": "Multiple",
+      "reef": "Multiple Dive Sites",
       "country": "Thailand",
       "location_description": "A dive vacation in Thailand, affectionately known by many as The Land of Smiles, means enjoying the gorgeous warm weather, the great hospitality of the local people, the beauty of the land and the rich bounty of the warm Andaman Sea that laps against its shores.",
       "dive_summary": "The Andaman Sea is crammed with colourful coral and tropical marine life, set around some stunning tropical islands, and is characterised by sites such as the huge submerged boulders of the Similans and the chance to swim with whale sharks, leopard sharks and manta rays. However, the diving is so diverse in Thailand that there is really something for everyone and a trip to suit every budget.",
@@ -211,10 +211,10 @@
     "url": "https://www.dive-the-world.com/diving-sites-thailand.php"},
     {
       "id": 11,
-      "reef": "Multiple",
+      "reef": "Multiple Dive Sites",
       "country": "Turks and Caicos Islands",
       "location_description": "The Turks and Caicos Islands lie just beyond the southernmost Bahamas, east of Cuba and north of the island of Hispaniola. This British Overseas Territory is now principally known as an offshore center of finance and as a tourist destination but its reputation as a wonderland for scuba divers is on the rise.",
-      "dive_summary": "Healthy reefs, walls, beginner and advanced divers...",
+      "dive_summary": "There are many reasons why lovers of the underwater world visit this 40 island chain, not least the excellent visibility, healthy vibrant reefs, shark sightings (nurse sharks, hammerheads, Caribbean reef sharks and tiger sharks), and even pods of humpback whales in season!",
       "depth": "5m - 40m",
       "visibility": "20m - 40m",
       "currents": "Gentle",
@@ -222,7 +222,7 @@
       "water_temp": "26°C - 29°C",
       "experience_level": "Beginner - Advanced",
       "number_of_dives_sites": ">50",
-      "diving_season": "All year round",
+      "diving_season": "You can dive here all year round, but the most popular time to visit is during the months of December through May. Sea temperatures are fairly constant, with a high of 84F/29°C in August/September/October and a low of 79F/26°C January-April. July to September are the warmest months with a maximum temperature is 90F/32°C; while January and February are the coolest at 81F/27°C. September to December is the rainy season but on an average year the Turks and Caicos have 350 days of sunshine.",
       "images": [
         {"image": "https://www.villaesencia.com/wp-content/uploads/2022/01/Scuba-Diver-At-Coral-Reef.jpg"},
         {"image": "https://royalwestindies.com/wp-content/uploads/2016/11/snorkel.jpg"},
@@ -235,7 +235,7 @@
       "reef": "Socorro Islands",
       "country": "Mexico",
       "location_description": "The best known of the Revillagigedos of Mexico is Socorro Island, so much so that the group of islands is often referred to collectively as 'Socorro'. Approximately 9 miles (15 km) wide, the island and its surrounding waters have become synonymous with liveaboard diving cruises and big fish action, particularly manta rays, sharks (hammerheads, silkies, oceanic whitetips, silvertips, Galapagos sharks, tiger sharks and whale sharks), dolphins and even whales.",
-      "dive_summary": "Wall dives, drift diving, advanced divers, off the beaten track...",
+      "dive_summary": "Imagine visiting these distant shores and then submerging yourself in a watery environment where the songs of gentle giants can be heard throughout your dive.",
       "depth": "33ft - 100ft",
       "visibility": "15m - 35m",
       "currents": "Moderate but can be strong",
@@ -243,7 +243,7 @@
       "water_temp": "21°C - 26°C",
       "experience_level": "Intermediate - Advanced",
       "number_of_dives_sites": 12,
-      "diving_season": "All year round",
+      "diving_season": "November through June reflects the Socorro liveaboard safari season. The winter months of late January through early April are the best times to see humpback whales. This is when water temperatures are at their lowest at 70 to 73°F (21-23°C). Outside of this time it is likely to be warmer at 73 to 79°F (23-26°C) and a better time for manta rays and sharks. This is roughly the November through early January period and most of April and May. ",
       "images": [
         {"image": "https://www.bluewaterdivetravel.com/images/A06.jpg"},
         {"image": "https://www.scubadiving.com/sites/scubadiving.com/files/styles/500_1x_/public/images/2017/07/mexico_socorro_islands_humpback_and_calf_scd0717_.jpg?itok=GwwOBncr&fc=50,50"},

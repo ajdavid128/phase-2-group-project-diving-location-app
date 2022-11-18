@@ -42,7 +42,7 @@ function Form({onAddSuggestion, search, setSearch}) {
       <section>
         <NavBar/>
         <form onSubmit={handleSubmit} className="form" autoComplete="off">
-        <h1 id="formH1" >Request Diving Information Based On Location</h1>
+        <h1 id="formH1" >Request Diving Information</h1>
 
           <label htmlFor="reef">Reef (if known)</label>
           <input
@@ -64,7 +64,7 @@ function Form({onAddSuggestion, search, setSearch}) {
             value={formData.country}
           />
 
-          <label htmlFor="image">Image</label>
+          <label htmlFor="image">Images</label>
           <input 
             className="formInput"
             type="text"
@@ -74,7 +74,7 @@ function Form({onAddSuggestion, search, setSearch}) {
             value={formData.image}
           />
 
-          <label htmlFor="url">Known Links</label>
+          <label htmlFor="url">Supplemental Links</label>
           <input
             className="formInput"
             type="text"

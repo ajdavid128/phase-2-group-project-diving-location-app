@@ -14,11 +14,11 @@ function NavBar({search, setSearch}) {
           <NavLink className="button" role="button" exact to="/home">
             Home
           </NavLink>
-          <NavLink className="button" role="button" exact to="/form">
-            Form
-          </NavLink>
           <NavLink className="button" role="button" exact to="/suggestions">
-            Suggestions
+            Visitor Requests
+          </NavLink>
+          <NavLink className="button" role="button" exact to="/form">
+            Request Information
           </NavLink>
         </div>
         <h1 id="titleNav">

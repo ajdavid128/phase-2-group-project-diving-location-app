@@ -28,7 +28,7 @@ function CardDetails(search, setSearch) {
     const imageArray = diveSite.images.map((eachImage) => {
         return (
             <div key={eachImage.image}>
-                <div className="column">
+                <div  className="column">
                     <img className="Detail_Images" src={eachImage.image} alt={reef}/>
                 </div>
             </div>
@@ -38,24 +38,26 @@ function CardDetails(search, setSearch) {
     return (
         <div>
             <NavBar search = {search} setSearch = {setSearch}/>
+            <div id="detail-country">
+                <h1 className="detail-country-text">{country}</h1>
+                <h3 className="detail-country-text">{reef}</h3>
+            </div>
+            <div id="detail-image-container" className="row">
+                {imageArray}
+            </div>
             <div className="Detail_Container">
-                <div className="row">
-                    {imageArray}
+                <h3><u>Dive Summary:</u> <br/>{dive_summary}</h3>
+                
+                <div id="Small_Details">
+                    <h3 className="text-small-details"><u>Number of Dive Sites:</u> <br/>{number_of_dives_sites}</h3>
+                    <h3 className="text-small-details"><u>Experience Level:</u> <br/>{experience_level}</h3>
+                    <h3 className="text-small-details"><u>Depth Range:</u> <br/>{depth}</h3>
                 </div>
-            <h2>{country}</h2>
-            <h4>{reef}</h4>
-            <h6>Dive Summary: {dive_summary}</h6>
-            <p>Dive Sites: {number_of_dives_sites}</p>
-            <div className="Small_Details">
-                <h3>Experience Level:{experience_level}</h3>
-                <h3>Depth: {depth}</h3>
-            </div>
-            
-            <div className="Description_Container">
-                <h6>Diving Season: {diving_season}</h6>
-                <p>Location Description: {location_description}</p>
-                <small className = 'small'>Further Research: {url}</small>
-            </div>
+                <div className="Description_Container">
+                    <h3><u>Diving Season:</u> <br/>{diving_season}</h3>
+                    <h3><u>Location Description:</u> <br/>{location_description}</h3>
+                    <a className='small' href={url} target="_blank" rel="noreferrer noopener"><u>Further Research:</u> {url}</a>
+                </div>
             </div>
         </div>
     )

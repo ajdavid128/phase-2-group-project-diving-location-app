@@ -8,6 +8,7 @@ function Home({dives, search, setSearch}) {
     return (
       <div>
         <NavBar/>
+        <h1 id="search-label">Search</h1>
         <div className="searchDiv">
           <Search search = {search} setSearch = {setSearch}/>
         </div>

@@ -10,7 +10,7 @@ function SuggestionContainer({suggestions, search, setSearch}) {
     return (
         <div>
             <NavBar/>
-            <div className="card-container">
+            <div id="suggestion-card-container">
             {suggestionArray}
             </div>
         </div>

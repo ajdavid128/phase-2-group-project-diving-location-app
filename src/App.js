@@ -40,7 +40,6 @@ function App() {
 
   return (
     <div>
-      {/* <NavBar search = {search} setSearch = {setSearch}/> */}
       <Switch>
         <Route exact path="/">
           <LandingPage />

@@ -21,9 +21,9 @@ const FlippedCard = () => {
   return (
     
     <div className="container">
-      <h3>{dive.country}</h3>
-      <h5>{dive.reef}</h5>
-      <p>{dive.experience_level}</p>
+      <h3><u>Country:</u> <br/>{dive.country}</h3>
+      <h3><u>Specific Location:</u> <br/>{dive.reef}</h3>
+      <h3><u>Diving Experience Required:</u> <br/>{dive.experience_level}</h3>
     </div>
   );
 }
